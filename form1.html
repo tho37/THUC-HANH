@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #table1{
+        width: 600px;
+        height: 200px;
+        margin:auto
+    }
+    #table2{
+        width: 600px;
+        height: 200px;
+        margin:auto
+    }
+    .tieude{
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+   }
+   .modau{ background-color: rgb(29, 243, 239);
+    text-align:left;
+    color: blue;
+    font-size: 25px;}
+    label{color: blue;
+        ;
+    }
+        td{color:orange;
+        }
+        .lop1{color:black}
+    </style>
+</head>
+<body>
+  <form>
+    <table id="table1">
+        <tr>
+           <td colspan="4" class="tieude"><b>SỞ THÍCH CỦA BẠN</b></td>
+           <td></td>
+           <td></td>
+           <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label>Họ và tên</label></td>
+            <td colspan="3"><input type="text" name="yourname" placeholder="yourname" size="25"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label>Email</label></td>
+            <td colspan="3"> <input type="email" name="email" placeholder="email"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="text-align:right"><label>Sở thích</label></td>
+                <td><input type="checkbox" name="hobby">Thể thao</td>
+                <td><input type="checkbox" name="hobby">Âm nhạc</td>
+                <td><input type="checkbox" name="hobby">Đọc sách</td>
+                </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby">Lướt web</td>
+            <td><input type="checkbox" name="hobby">Chơi game</td>
+            <td><input type="checkbox" name="hobby">Chụp ảnh</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="hobby">Du lịch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="2"><button type="submit">Gửi thông tin</button>
+           <button type="reset">Nhập lại</button></td>
+           <td></td>
+           <td></td>
+        </tr>
+    </table>
+    <br>
+    <table id="table2">
+        <tr>
+            <td colspan="4" class="modau"><b>ĐĂNG KÝ HỌC VIÊN</b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Họ và tên</td></label>
+            <td colspan="3"><input style="name" name="yourname" placeholder="yourname" size="30" ></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <td><label>Ngày sinh</label>
+            <td colspan="3"><input type="datetime-local"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Giới tính
+            </label></td>
+            <td colspan="3" class="lop1"><input type="radio" name="gender">Nam
+                <input type="radio" name="gender">Nữ</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Địa chỉ</label></td>
+            <td colspan="3"><textarea name="address" ></textarea></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Lớp</label></td>
+            <td colspan="3"><select><Option value=" ">---Chọn lớp---</Option>
+                <option value="lớp 1">Lớp 1</option>
+                <option value="lớp 2">Lớp 2</option>
+                <option value="lớp 3">Lớp 3</option>
+                </select></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td colspan="3"><input type="email" name="email"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label>Điện thoại</label></td>
+            <td colspan="3"><input type="text" name="phone"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+           <td></td>
+            <td colspan="3"><button type="submit">Đăng ký</button>
+            <button type="reset">Nhập lại</button></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</form>
+
+    </body>
+</html>
